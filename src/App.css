@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.searchContainer{
+  position: absolute;
+  margin: auto;
+  align-items: center;
+  top: 50%;
+  left: calc(50% - 100px);
+}
+.searchContainer .inputField{
+  height: 40px !important;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+.searchContainer label{
+  left: -100px;
+    position: relative;
+}
+
+button.primary{
+  /* width: 60px; */
+  padding: 10px;
+  height: 40px;
+  background-color: #ffd300;
+  color: black;
+  border-radius: 5px;
+  margin: 5px;
+  font-size: 16px;
+}
+.disabledBtn{
+  opacity: 0.5;
+}
+.activeBtn{
+  opacity: 1;
+}
+
+#list{
+  font-weight: 700;
+  color: black;
+}
